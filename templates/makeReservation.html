@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block blck1 %}
+    <h2>Make a Reservation</h2>
+    <form action="{% url "createReservation" %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p}}
+    <input type="submit" value="Submit">
+    </form>
+
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+
+{% block blck1 %}
+    <h2>New booking contact</h2>
+
+    <form>
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    </form>
+
+{% endblock %}

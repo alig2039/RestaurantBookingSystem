@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block blck1 %}
+    <header class="bodycon1" style="height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url({% static "/Assets/Images/Group Photo.jpg" %});
+    background-position: center;
+    background-size: cover;">
+        <div class="container">>
+        <div class="container">
+          <div class="row d-flex justify-content-center align-items-center p-5">
+              <div class="col-12 d-flex justify-content-center align-items-center book">
+                <h1>Book A Table</h1>
+              </div>
+          </div>
+          <div class="row d-flex justify-content-center align-items-cente">
+            <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center book p-5">
+                <div class="card1">
+                    <img src="{% static "/Assets/Images/Booked.jpg" %}" alt="Grilled Chicken" class="card-img-top1">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 d-flex justify-content-center align-items-center book p-5">
+              <div class="card11">
+                <div class="card-container">
+                    <div class="card-content ">
+                        <h1 class="d-flex justify-content-center align-items-center">Reservation</h1>
+                        <div class="form d-flex justify-content-center align-items-center book p-2">
+                            <select name="Location" id="loc">
+                                <option value="Select Location">Location</option>
+                                <option value="Place">Kampala</option>
+                                <option value="Place">Entebbe</option>
+                                <option value="Place">Jinja</option>
+                            </select>
+                        </div>
+                        <div class="form d-flex justify-content-center align-items-center book p-2">
+                            <select name="Day" id="Day">
+                                <option value="Select Day">Day</option>
+                                <option value="Day">Friday</option>
+                                <option value="Day">Saturday</option>
+                                <option value="Day">Sunday</option>
+                            </select>
+                        </div>
+                        <div class="form d-flex justify-content-center align-items-center book p-2">
+                            <select name="Date" id="Date">
+                                <option value="Select Day">Date</option>
+                                <option value="Day">Friday</option>
+                                <option value="Day">Saturday</option>
+                                <option value="Day">Sunday</option>
+                            </select>
+                        </div>
+                        <div class="form d-flex justify-content-center align-items-center book p-2">
+                            <select name="Number Of People" id="People">
+                                <option value="Select People">Number Of People</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">12</option>
+                                <option value="13">14</option>
+                            </select>
+                        </div>
+                        <div class="form d-flex justify-content-center align-items-center book p-2">
+                            <select name="Time" id="Time">
+                                <option value="Time">Time</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                            </select>
+                        </div>
+                        <div class="form d-flex justify-content-center align-items-center book p-2">
+                            <input type="text" placeholder="Full Name">
+                        </div>
+                        <div class="form d-flex justify-content-center align-items-center book p-2">
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="form d-flex justify-content-center align-items-center book p-2">
+                            <input type="text" placeholder="Contact">
+                        </div>
+                        <div class="form d-flex justify-content-center align-items-center book p-2">
+                            <input type="submit" value="Book Now">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </header>
+
+{% endblock %}

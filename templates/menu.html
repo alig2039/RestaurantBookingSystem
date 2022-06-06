@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block blck1 %}
+    <header class="bodycon2" style="height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url({% static "/Assets/Images/Reservations.jpg" %});
+    background-position: center;
+    background-size: cover;">
+
+
+<!--- This section indicates the African dishes served at the restaurant --->
+
+
+<section class="african">
+  <div class="container africandish">
+    <div class="row ourdishes d-flex justify-content-center align-items-center">
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <h1>African</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row g-5 d-flex justify-content-center align-items-center">
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "Assets/Images/BBQ Stake.jpg" %}" alt="BBQ Stake" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">BBQ Stake</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 20,000</h5>
+          </div>
+        </div>
+      </div>
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Chicken Platter.jpg" %}" alt="Chicken" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Chicken Platter</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 55,000</h5>
+          </div>
+        </div>
+      </div>
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Chicken Biryani.jpg" %}" alt="ChickenBirtani" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Chicken Biryani</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 25,000</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-5 d-flex justify-content-center align-items-center">
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Rolex.jpg" %}" alt="Rolex" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Rolex Special</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">10,000</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--- This section indicates the Asian dishes served at the restaurant --->
+
+
+
+<section class="asian">
+  <div class="container asiandish">
+    <div class="row ourdishes d-flex justify-content-center align-items-center">
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <h1>Asian</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row g-5 d-flex justify-content-center align-items-center">
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Pad Kra Pao.jpg" %}" alt="PadKraPao" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Pad Kra Pao</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 13,500</h5>
+          </div>
+        </div>
+      </div>
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Grilled Chicked.jpg" %}" alt="GrilledChicken" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Grilled Chicken</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 25,000</h5>
+          </div>
+        </div>
+      </div>
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Shrimp.jpg" %}" alt="Shrimp" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Shrimp Soup</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 18,000</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-5 d-flex justify-content-center align-items-center">
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Tom Yam Soup.jpg" %}" alt="TomYam" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Tom Yam Soup</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 19,500</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!--- This section indicates the Other dishes served at the restaurant --->
+
+
+
+<section class="other">
+  <div class="container otherdish">
+    <div class="row ourdishes d-flex justify-content-center align-items-center">
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <h1>Other</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row g-5 d-flex justify-content-center align-items-center">
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Cafe Latte & Samosa Combo.jpg" %}" alt="Latte" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Latte & Samosa Combo</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 8,500</h5>
+          </div>
+        </div>
+      </div>
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Pizza.jpg" %}" alt="Pizza" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Pizza</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 30,000</h5>
+          </div>
+        </div>
+      </div>
+      <div class="img col-12 col-sm-4 d-flex justify-content-center align-items-center p-5">
+        <div class="card">
+          <img src="{% static "/Assets/Images/Tacos.jpg" %}" alt="Tacos" class="card-img-top">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">Tacos</h5>
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h5 class="card-title">@ 18,000</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    </header>
+{% endblock %}
