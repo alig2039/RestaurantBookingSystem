@@ -1,0 +1,170 @@
+[
+  {
+    "id": 4,
+    "tableNumber": 1,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 2
+  },
+  {
+    "id": 5,
+    "tableNumber": 2,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 2
+  },
+  {
+    "id": 6,
+    "tableNumber": 3,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 2
+  },
+  {
+    "id": 7,
+    "tableNumber": 4,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 2
+  },
+  {
+    "id": 8,
+    "tableNumber": 5,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 3
+  },
+  {
+    "id": 9,
+    "tableNumber": 6,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 3
+  },
+  {
+    "id": 10,
+    "tableNumber": 7,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 3
+  },
+  {
+    "id": 11,
+    "tableNumber": 8,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 3
+  },
+  {
+    "id": 12,
+    "tableNumber": 9,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 5
+  },
+  {
+    "id": 13,
+    "tableNumber": 10,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 5
+  },
+  {
+    "id": 14,
+    "tableNumber": 11,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 7
+  },
+  {
+    "id": 15,
+    "tableNumber": 12,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 7
+  },
+  {
+    "id": 16,
+    "tableNumber": 13,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 9
+  },
+  {
+    "id": 17,
+    "tableNumber": 14,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 12
+  },
+  {
+    "id": 18,
+    "tableNumber": 15,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 14
+  },
+  {
+    "id": 19,
+    "tableNumber": 16,
+    "restaurantLocation_id": "Kampala",
+    "tableCapacity_id": 14
+  },
+  {
+    "id": 20,
+    "tableNumber": 1,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 2
+  },
+  {
+    "id": 21,
+    "tableNumber": 2,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 2
+  },
+  {
+    "id": 22,
+    "tableNumber": 3,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 2
+  },
+  {
+    "id": 23,
+    "tableNumber": 4,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 2
+  },
+  {
+    "id": 24,
+    "tableNumber": 5,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 4
+  },
+  {
+    "id": 25,
+    "tableNumber": 6,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 4
+  },
+  {
+    "id": 26,
+    "tableNumber": 7,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 4
+  },
+  {
+    "id": 27,
+    "tableNumber": 8,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 6
+  },
+  {
+    "id": 28,
+    "tableNumber": 9,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 6
+  },
+  {
+    "id": 29,
+    "tableNumber": 10,
+    "restaurantLocation_id": "Entebbe",
+    "tableCapacity_id": 6
+  },
+  {
+    "id": 30,
+    "tableNumber": 3,
+    "restaurantLocation_id": "Ggaba",
+    "tableCapacity_id": 5
+  },
+  {
+    "id": 31,
+    "tableNumber": 1,
+    "restaurantLocation_id": "Ggaba",
+    "tableCapacity_id": 2
+  }
+]

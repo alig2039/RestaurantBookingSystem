@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*--
+.bodycon {
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/Assets/Images/Group\ Photo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+--*/
+
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.land1 {
+    padding: 15% 0 0% 0;
+    display: inline-block;
+}
+
+.land2 {
+    padding: 5% 0 0% 0;
+    display: inline-block;
+    color: white;
+}
+
+.land3 {
+    padding: 5% 0 15% 0;
+    display: inline-block;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    transition: 1s;
+}
+
+.btn a:hover {
+    border-radius: 5px;
+    color: black;
+    transition: 1s;
+}
+
+#navi {
+    background-color: black;
+    color: white;
+}
+
+#navi ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#navi ul li {
+    padding: 0 8px 0 8px;
+}
+
+#navi ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 2.5px;
+    transition: 1s;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+
+
+
+
+
+
+
+.african {
+    background-color: black;
+}
+
+.asian {
+    background-color: black;
+}
+
+.other {
+    background-color: black;
+}
+
+.otherdish {
+    background-color: white;
+}
+
+.asiandish {
+    background-color: white;
+}
+
+.africandish {
+    background-color: white;
+}
+
+.card {
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.card-title {
+    color: black;
+    font-weight: 700;
+}
+
+.ourdishes {
+    padding: 50px 0;
+    color: black;
+    background-color: white;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    border: 5px solid black;
+    background: black;
+}
+
+
+
+
+
+
+
+.book {
+    color: white;
+}
+
+.bodycon1 {
+
+}
+
+.card1 {
+    width: 60%;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.card-img-top1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    border: 7px solid black;
+    background: black;
+}
+
+.card11 {
+    background-color: black;
+    padding: 5px;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+
+
+.bodycon2 {
+
+}
+
+
+
+
+
+.footer {
+    background-color: #36454F;
+    color: white;
+}
